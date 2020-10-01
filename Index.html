@@ -1,1 +1,107 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Woodland Hills Woods</title>
+    <!--Bootstrap & jQuery-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--Fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700' rel='stylesheet'>
+    <!--CSS Sheet -->
+    <link rel='stylesheet' type='text/css' href='css/style.css'>
+    <!--Lodash-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/1.2.1/lodash.min.js"></script>
+    <script>
+  </script>
+</head>
+  <body>
+    <div class='container-fluid'>
+      <nav>
+        <div class='container-fluid'>
+          <span class='menu-button' id='tree'>Trees</span>
+          <span class='menu-button' id='shrub'>Shrubs</span>
+          <span class='menu-button' id='ground'>Ground Cover</span>
+        </div>
+      </nav>
+      <div class="row">
+          <div class="column">
+              <div class='treeToggle container-fluid'>
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th>Name</th>
+                      <th>Photo</th>
+                      <th>Height</th>
+                      <th>Width</th>
+                      <th>Sun</th>
+                      <th>Soil</th>
+                      <th>Description</th>
+                    </tr>
+                  </thead>
+                  <tbody id="whwTreeData">
+                    
+                  </tbody>
+                </table>
+              </div>
+          </div><!--End Column-->
+      </div><!--End Row-->
+      <div class="row">
+          <div class="column">
+              <div class='shrubToggle container-fluid'>
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th>Name</th>
+                      <th>Photo</th>
+                      <th>Height</th>
+                      <th>Width</th>
+                      <th>Sun</th>
+                      <th>Soil</th>
+                      <th>Spacing</th>
+                      <th>Description</th>
+                    </tr>
+                  </thead>
+                  <tbody id="whwShrubData">
+                    
+                  </tbody>
+                </table>
+              </div>
+          </div><!--End Column-->
+      </div><!--End Row-->
+    <div class="row">
+          <div class="column">
+              <div class='groundToggle container-fluid'>
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th>Name</th>
+                      <th>Photo</th>
+                      <th>Width</th>
+                      <th>Sun</th>
+                      <th>Soil</th>
+                      <th>Water</th>
+                      <th>Description</th>
+                    </tr>
+                  </thead>
+                  <tbody id="whwGroundData">
+                    
+                  </tbody>
+                </table>
+              </div>
+          </div><!--End Column-->
+      </div><!--End Row-->
+    </div>
+    <script src="main.js"></script>
+  </body>
+  <div class='container-fluid'>
+    <footer>
+        <div class='container-fluid'>
+        <div>Woodland Hills Woods</div>
+      </div>
+    </footer>
+  </div>
+</html>
