@@ -1,0 +1,31 @@
+body {
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  text-align: left;
+  font-size: 18px;
+  color: #303030; }
+
+.container {
+  margin: 0 auto; }
+
+nav {
+  color: #EFEFEF; 
+  background-color: #303030;
+  overflow: hidden;}
+  nav .container-fluid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    nav .container-fluid .menu-button {
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      padding: 1em 1.25em;
+      cursor: pointer; }
+      
+footer {
+  color: #EFEFEF;
+  background-color: #303030;
+  margin-top: 2em;
+  padding: 2em 0.5em; }
+  footer .container-fluid {
+    text-transform: uppercase;
+    display: flex;}
