@@ -1,0 +1,37 @@
+NOTES:
+
+1. Got mySQL installed and working  
+    To turn it on use:  mysql-ctl start
+    To turn it off use:  mysql-ctl stop
+    mySQL interactive shell: mysql-ctl cli
+
+2. There's now a simple placeholder index.html for testing purposes.
+
+3. I got the database created, named it whw, all the tables are created and loaded in.  If you're interested in how, I used the information in this website to load the data in using sql statements at the terminal.
+    https://www.wikihow.com/Create-a-Database-in-MySQL
+    
+4. I got the GET (List) working for grounds/trees/shrubs. The url for testing these is: https://woodland-hills-woods-vivega.c9users.io/api/v1/grounds or trees or shrubs (after you start the server and mysql)
+
+5. Added new index.html file that uses bootstrap 3 to build a table.
+
+6. All REST working on server side, YAY!
+    Testing in CURL complete using commands similar to:
+    curl -X GET "https://woodland-hills-woods-vivega.c9users.io/api/v1/grounds/4"
+    curl -X GET "https://woodland-hills-woods-vivega.c9users.io/api/v1/trees"
+    curl -X DELETE "https://woodland-hills-woods-vivega.c9users.io/api/v1/grounds/1"
+    curl -X POST "https://woodland-hills-woods-vivega.c9users.io/api/v1/grounds"
+    curl -X PUT "https://woodland-hills-woods-vivega.c9users.io/api/v1/grounds/3"
+    
+7. Trees is now roughed into the index.html.  
+    
+OTHER COMMUNICATION:
+
+
+
+TODO:
+1. Loading database tables into the GUI - Done
+    Clickable rows
+    New page or form(popup or unhiding a card?) to edit/delete/etc
+2. Complete GUI including update, edit, delete
+3. Make sure database is back to original after all testing
+
